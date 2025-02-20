@@ -183,6 +183,7 @@ h1, h2, h3 {
     margin: 2rem 0;
     text-align: center;
     align-items: center;
+    
 }
 
 .social-links {
@@ -224,10 +225,17 @@ nav a:hover {
 
     .cta-buttons {
         flex-direction: column;
-        justify-items: center;
-        padding: 0 2rem;
-        align-items: center; 
-        text-align: center;
+        gap: 1rem;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .cta-buttons .btn {
+        width: 100%;
+        max-width: 300px; /* Optional: prevents buttons from getting too wide */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
