@@ -28,6 +28,7 @@ body {
     color: var(--text-light);
     cursor: pointer;
     padding: 0.5rem;
+    margin-top: 20px;
 }
 
 @media (max-width: 768px) {
