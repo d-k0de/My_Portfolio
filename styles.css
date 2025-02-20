@@ -38,6 +38,7 @@ body {
         right: 1rem;
         top: 50%;
         transform: translateY(-50%);
+        margin-top: 20px;
     }
 
     .navbar-links {
